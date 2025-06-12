@@ -29,9 +29,9 @@ Conda adalah package manager dan environment manager open-source yang digunakan 
 ##### ✅ "Tiap project punya dapur sendiri, aman!"
 ##### ✅ "Mau ganti Python versi berapa pun? Gampang!"
 ##### ✅ "Install banyak tools data science? Sekali klik!"
+###  ⚡ Apa itu uv?
 #### 🌞UV (Ultraviolet)🤣no no ya gess, yang bener itu..
 ### 🔍 UV (Python/Anaconda Context)
-##### ⚡ Apa itu uv?
 uv adalah manajer paket Python modern dan super cepat, dikembangkan dengan bahasa Rust.
 Fungsinya mirip seperti pip dan venv, tetapi:
 ##### ⚡ Lebih cepat
