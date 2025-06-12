@@ -104,16 +104,16 @@ Karena Anaconda nggak cuma ngasih kamu Python, tapi juga banyak pustaka (library
 1. Jangan instal Anaconda ke folder sistem kayak C:\Windows atau C:\Program Files (x86) — bisa bikin error atau butuh izin admin.
 2. Jangan klik cancel di tengah proses instalasi, apalagi pas udah jalan setengah. Bisa bikin file jadi setengah jadi dan error pas dijalankan.
 #### ✅ Verifikasi Anaconda Sudah Terpasang dan Bisa Diakses
-Apa sih maksudnya?
+##### Apa sih maksudnya?
 Di sini kita mau cek dulu, apakah Anaconda udah beneran ke-install dan bisa dijalankan lewat terminal atau command prompt. Ibaratnya, ini kayak test drive buat lihat apakah semuanya oke sebelum lanjut ke langkah berikutnya.
-Kenapa perlu dicek?
+##### Kenapa perlu dicek?
 Biar kamu nggak kena masalah di tengah jalan, misalnya conda nggak dikenali atau Python-nya belum aktif. Verifikasi ini bakal kasih tahu apakah semua udah beres atau masih ada yang perlu dibenerin.
-🪜 Langkah-langkahnya Gampang Banget:
+##### 🪜 Langkah-langkahnya Gampang Banget:
 1. Buka Command Prompt
 (klik Start → ketik "cmd" → Enter)
 2. Tekan Enter.
 3. jika muncul sesuatu seperti ini:
-   
+   ![Alt](
 
  
 
