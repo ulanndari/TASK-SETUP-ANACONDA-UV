@@ -10,14 +10,14 @@ Anaconda adalah sebuah distribusi open-source dari bahasa pemrograman Python dan
 2. ✅ Ratusan library sains dan data science (seperti numpy, pandas, matplotlib, scikit-learn, tensorflow)
 3. ✅ Conda (untuk mengelola environment & package)
 4. ✅ Jupyter Notebook (untuk coding interaktif seperti catatan digital)
-🎯 Intinya: Begitu kamu install Anaconda, kamu siap tempur untuk coding, analisis data, machine learning, dan visualisasi!
-🚀 Bayangkan Ini:
+>🎯 Intinya: Begitu kamu install Anaconda, kamu siap tempur untuk coding, analisis data, machine learning, dan visualisasi!
+>🚀 Bayangkan Ini:
 Kamu adalah seorang ilmuwan data pemula.
 Kamu install Anaconda, lalu...
-🧑‍💻 Buka Jupyter Notebook
-📊 Mulai olah data Excel pakai pandas
-📈 Bikin grafik interaktif
-🧠 Coba algoritma AI
+>🧑‍💻 Buka Jupyter Notebook
+>📊 Mulai olah data Excel pakai pandas
+>📈 Bikin grafik interaktif
+>🧠 Coba algoritma AI
 Tanpa ribet install library satu per satu!
 ### ⚙️ Apa itu Conda?
 Conda adalah package manager dan environment manager open-source yang digunakan terutama untuk mengelola paket dan dependensi dalam bahasa pemrograman Python (juga bisa untuk R, Ruby, Lua, dan lainnya).
