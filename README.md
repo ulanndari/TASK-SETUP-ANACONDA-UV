@@ -211,8 +211,9 @@ Folder proyek itu kayak rumah khusus buat satu pekerjaan. Semua file, kode, note
 ![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.8.png?raw=true)
 3. Kemudian Masuk ke folder proyek kamu:
 ##### cd C:\Users\NAMA_ANDA\ghost_intellix
-![Alt](?raw=true)
-Jangan lupa ganti NAMA_ANDA dengan nama user di laptop kamu.
+![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.9.png?raw=true)
+
+###### ❗Jangan lupa ganti NAMA_ANDA dengan nama user di laptop kamu.
 ##### ✅ Tekan Enter setelah mengetik perintahnya.
 5. Sekarang kamu udah “berada” di dalam folder itu (di terminal).
 Untuk langsung buka folder ini di VS Code, ketik:
