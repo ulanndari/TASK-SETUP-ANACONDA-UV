@@ -72,29 +72,48 @@ Jadi lebih hemat waktu dan lebih aman karena semua udah diatur biar kompatibel.
 Buka browser, lalu kunjungi:
 ##### 1. Download Installer Anaconda
 👉 https://www.anaconda.com/download
+
 ![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.1.png?raw=true)
-##### ✅ Do's:
+##### ✅ Do's (Yang Sebaiknya Dilakukan):
 1. Download langsung dari situs resmi Anaconda 👉 biar aman dan terjamin.
 2. Simpan file installernya di folder yang gampang dicari, misalnya di Desktop atau folder Download — jadi nggak ribet pas mau install nanti.
-##### ❌ Don’ts:
+##### ❌ Don’ts (Yang Sebaiknya Dihindari):
 1. Jangan asal download dari situs lain atau link nggak jelas — bisa aja isinya virus atau installer palsu.
 2. Jangan simpan file installer di folder sistem kayak C:\Windows — itu bikin ribet dan kadang butuh izin admin.
-##### 🛠️ 2. Jalankan Installer Anaconda
+#### 🛠️ 2. Jalankan Installer Anaconda
 ###### Apa sih maksudnya?
 Ini adalah proses menginstal Anaconda ke laptop kamu — biar Python dan semua alat bantu data science siap dipakai.
 Kenapa perlu install Anaconda?
 Karena Anaconda nggak cuma ngasih kamu Python, tapi juga banyak pustaka (library) penting seperti numpy, pandas, matplotlib, bahkan udah termasuk Jupyter Notebook dan Spyder IDE. Jadi kamu nggak perlu install satu-satu lagi. Hemat waktu, hemat tenaga!
-##### 🪜 Langkah-langkah Instalasinya:
+###### 🪜 Langkah-langkah Instalasinya:
 1. Klik dua kali file installer Anaconda yang udah kamu download sebelumnya.
 2. Akan muncul wizard instalasi — tinggal klik “Next” beberapa kali.
-![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.4.png?raw=treu)
+   
+   ![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.4.png?raw=treu)
+   
 3. Saat muncul pilihan:
-![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.5.png?raw=treu)
-“Add Anaconda to my PATH environment variable”
-4. Klik Install, lalu tunggu prosesnya selesai. Bisa makan waktu beberapa menit tergantung spek laptop kamu.
-
-
-
+   
+   ![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.5.png?raw=treu)
+   
+   “Add Anaconda to my PATH environment variable”
+ 4. Klik Install, lalu tunggu prosesnya selesai. Bisa makan waktu beberapa menit tergantung spek laptop kamu.
+##### ✅ Do’s (Yang Sebaiknya Dilakukan):
+1. Gunakan pengaturan default aja kalau kamu nggak yakin mau ubah apa — ini udah paling aman dan direkomendasikan.
+2. Centang opsi “Add to PATH” kalau kamu pengin bisa akses Anaconda langsung dari Command Prompt atau terminal di mana saja.
+##### ❌ Don’ts (Yang Sebaiknya Dihindari):
+1. Jangan instal Anaconda ke folder sistem kayak C:\Windows atau C:\Program Files (x86) — bisa bikin error atau butuh izin admin.
+2. Jangan klik cancel di tengah proses instalasi, apalagi pas udah jalan setengah. Bisa bikin file jadi setengah jadi dan error pas dijalankan.
+#### ✅ Verifikasi Anaconda Sudah Terpasang dan Bisa Diakses
+Apa sih maksudnya?
+Di sini kita mau cek dulu, apakah Anaconda udah beneran ke-install dan bisa dijalankan lewat terminal atau command prompt. Ibaratnya, ini kayak test drive buat lihat apakah semuanya oke sebelum lanjut ke langkah berikutnya.
+Kenapa perlu dicek?
+Biar kamu nggak kena masalah di tengah jalan, misalnya conda nggak dikenali atau Python-nya belum aktif. Verifikasi ini bakal kasih tahu apakah semua udah beres atau masih ada yang perlu dibenerin.
+🪜 Langkah-langkahnya Gampang Banget:
+1. Buka Command Prompt
+(klik Start → ketik "cmd" → Enter)
+2. Tekan Enter.
+3. jika muncul sesuatu seperti ini:
+   
 
  
 
