@@ -113,8 +113,9 @@ Biar kamu nggak kena masalah di tengah jalan, misalnya conda nggak dikenali atau
 (klik Start → ketik "cmd" → Enter)
 2. Tekan Enter.
 3. jika muncul sesuatu seperti ini:
+   
    ![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.6.png?raw=true)
-   berarti Anaconda kamu udah sukses ke-install dan siap dipakai! 🎉
+berarti Anaconda kamu udah sukses ke-install dan siap dipakai! 🎉
 ##### ❗Kalau Nggak Muncul?
 1. Coba restart laptop dulu, terus ulangi langkah di atas.
 2. Kalau tetap nggak muncul, mungkin opsi PATH-nya belum dicentang waktu instalasi. Tapi tenang, masih bisa diatur nanti secara manual.
@@ -130,7 +131,102 @@ Kadang setelah instalasi, Anaconda belum otomatis bisa dipanggil dari terminal a
 2. Buka tab "Advanced", lalu klik tombol "Environment Variables…"
 3. Di bagian bawah (System variables), cari dan klik Path, lalu klik Edit.
 4. Klik New, lalu tambahkan dua baris ini (ganti NAMA_ANDA dengan nama user di laptop kamu):
-5. 
+   
+   ![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.7.png?raw=true)
+##### ✅ Do’s (Yang Sebaiknya Dilakukan):
+1. Tutup dulu terminal/CMD yang lama, terus buka yang baru setelah kamu ubah PATH — biar setting barunya kebaca dengan benar.
+2. Kalau masih belum bisa, coba restart laptopnya. Kadang Windows baru ngeh setelah di-restart.
+##### ❌ Don’ts (Yang Harus Dihindari):
+1. Jangan asal hapus isi PATH lain — itu bisa bikin program penting lain di laptop kamu jadi nggak jalan.
+2. Edit variabel lingkungan dengan hati-hati, karena ini menyangkut sistem. Kalau ragu, sebaiknya dicatat dulu isi PATH sebelumnya sebelum mengubah.
+#### 5. 💻 Menginstal VS Code (Visual Studio Code)
+##### Apa itu?
+VS Code adalah editor kode ringan tapi canggih. Cocok banget buat ngoding Python, termasuk buat proyek Data Science atau Machine Learning.###
+##### Kenapa pakai VS Code?
+Karena dia punya fitur pintar kayak:
+1. Auto-complete kode
+2. Debugging interaktif
+3. Integrasi dengan Jupyter Notebook
+4. Bisa di-custom dengan banyak ekstensi
+5. Pokoknya nyaman banget buat kerja!
+##### ✅ Do’s (Yang Sebaiknya Dilakukan):
+1. Centang semua opsi integrasi saat instalasi, terutama yang berhubungan dengan Windows dan PATH.
+2. Ini biar kamu bisa klik kanan file → langsung “Buka dengan Code”, dan bisa jalanin code . dari terminal.
+##### ❌ Don’ts (Yang Harus Dihindari):
+1. Jangan skip instalasi VS Code kalau kamu mau kerja dengan Python secara serius — apalagi di dunia Data Science.
+2. VS Code bakal bikin proses coding kamu jadi lebih enak dan efisien.
+##### 🪜 Langkah-langkah Instalasi:
+1. Kunjungi situs resminya:
+👉https://code.visualstudio.com/
+2. Klik tombol Download for Windows.
+3. Buka file .exe hasil download tadi.
+4. Saat instalasi, pastikan kamu centang semua ini:
+##### ✅ Tambahkan “Open with Code” di menu klik kanan (Explorer)
+##### ✅ Jadikan VS Code sebagai editor default
+##### ✅ Tambahkan ke PATH (penting!)
+Klik Next → Next → Install, tunggu sampai selesai.
+##### 🧩 Ekstensi Penting di VS Code
+###### Apa sih ekstensi itu?
+Ekstensi adalah fitur tambahan yang bisa kamu pasang di VS Code untuk bikin kerjaan kamu lebih gampang — misalnya untuk nulis, ngejalanin, atau debug kode Python dan Jupyter Notebook.
+###### Kenapa butuh ekstensi?
+Tanpa ekstensi, VS Code cuma editor biasa. Tapi dengan ekstensi seperti Python dan Jupyter, kamu bisa:
+1. Ngedebug kode langsung
+2. Jalanin cell kayak di Jupyter
+3. Auto-format kode
+4. Liat variable dan output dengan rapi
+##### ✅ Do’s (Yang sebaiknya dilakukan):
+1. Pasang ekstensi resmi dari Microsoft biar lebih stabil dan aman.
+2. Gunakan fitur pencarian di panel ekstensi buat nemuin yang kamu butuh.
+##### ❌ Don’ts (Yang Harus Dihindari):
+Jangan asal pasang banyak ekstensi yang nggak jelas fungsinya — bisa bikin VS Code jadi berat dan membingungkan.
+##### 🪜 Cara Instal Ekstensinya:
+1. Buka VS Code
+2. Tekan shortcut:
+##### Ctrl + Shift + X
+Ini bakal buka panel ekstensi di samping kiri.
+3. Cari dan instal ekstensi berikut (yang dibuat oleh Microsoft):
+##### 🐍 Python
+##### 📓 Jupyter
+Klik tombol Install di masing-masing ekstensi.
+#### 📁 Membuat Folder Proyek
+##### Apa maksudnya?
+Folder proyek itu kayak rumah khusus buat satu pekerjaan. Semua file, kode, notebook, dan data kamu disimpan di situ — jadi rapi dan gampang dicari.
+##### Kenapa penting?
+ Dengan folder khusus, kamu bisa:
+1. Ngelola file proyek biar nggak nyampur sama yang lain
+2. Bikin environment conda/uv yang khusus untuk folder itu
+3. Kerja lebih terorganisir, apalagi kalau proyeknya gede atau kerja bareng tim
+##### ✅ Do’s (yang sebaiknya dilakukan):
+1. Kasih nama folder yang jelas, misalnya: ghost_intellix, analisis_cuaca, atau proyek_ta
+2. Simpan di tempat yang gampang diakses, misalnya di dalam folder Documents atau C:\Users\NamaKamu\
+##### ❌ Don’ts (yang harus dihindari) :
+1. Jangan bikin folder di flashdisk atau drive eksternal — bisa bikin error atau lambat.
+2. Hindari folder sistem seperti C:\Windows atau C:\Program Files.
+##### 🪜 Langkah-langkah Bikin Folder:
+1. Tekan Windows + R, ketik cmd, lalu Enter.
+   Ini akan buka Command Prompt.
+2. Ketik perintah ini buat bikin folder:
+##### mkdir C:\Users\NAMA_ANDA\ghost_intellix
+Ganti NAMA_ANDA dengan nama user di laptop kamu.
+3. Kalau berhasil, nanti akan muncul folder baru di lokasi itu. Bisa dicek lewat File Explorer juga.
+4. Masuk ke folder proyek kamu:
+##### cd C:\Users\NAMA_ANDA\ghost_intellix
+Jangan lupa ganti NAMA_ANDA dengan nama user di laptop kamu.
+##### ✅ Tekan Enter setelah mengetik perintahnya.
+5. Sekarang kamu udah “berada” di dalam folder itu (di terminal).
+Untuk langsung buka folder ini di VS Code, ketik:
+##### code .
+##### ✅ Tekan Enter. Kalau VS Code terbuka dan nunjuk ke folder ghost_intellix, berarti sukses!
+##### 🎉 Dengan begitu:
+Folder ghost_intellix udah siap buat dijadikan proyek Python
+1. VS Code udah kebuka di folder itu
+2. Kamu bisa mulai bikin file .py atau .ipynb, dan lanjut kerja
+
+
+
+
+
+
 
 
 
