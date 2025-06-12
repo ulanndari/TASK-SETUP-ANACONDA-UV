@@ -49,9 +49,9 @@ Kalau kamu suka coding buat data, AI, atau machine learning, pasti pernah ngalam
 Dengan Anaconda, kamu nggak perlu ribet install satu-satu—semua udah ada. Dan kalau mau yang lebih ringan dan cepat, UV bisa jadi pilihan pas.
 Intinya, dengan setup yang rapi, kerjaan kamu jadi lancar, bebas konflik, dan lebih fokus ke ngoding, bukan beresin error.
 ##### ✅ Do & Don'ts
-##### Do:
+##### Do"s (yang sebaiknya dilakukan):
 👍 Ikuti setiap langkah dengan saksama biar setup-nya lancar dan nggak bikin pusing di tengah jalan.
-##### Don't:
+##### Don'ts (yang harus dihindari):
 🚫 Jangan skip bagian verifikasi ya—karena bagian ini penting banget buat ngecek apakah semua udah jalan dengan benar dari awal.
 ##### Panduan ini bakal ngajarin kamu cara:
 Install Anaconda, Atur PATH biar dikenali sistem, Hubungkan ke VS Code, Bikin lingkungan virtual pakai Conda dan UV, Setting Jupyter Notebook, Lihat perbandingan Conda vs UV, Rekomendasi pustaka penting, Dan tips buat ngatasin masalah yang sering muncul
@@ -64,9 +64,9 @@ Anaconda adalah “paket lengkap” Python yang udah dibekali ratusan library bu
 ##### Kenapa harus pakai Anaconda?
 Dengan install Anaconda, kamu langsung dapet banyak alat penting buat Data Science—kayak Jupyter Notebook, Spyder, dan library populer seperti pandas, numpy, dll.
 Jadi lebih hemat waktu dan lebih aman karena semua udah diatur biar kompatibel.
-##### Do:
+##### Do's (yang sebaiknya dilakukan):
 ✔️ Pilih Python versi 3.12, karena ini versi terbaru dan paling kompatibel sama banyak pustaka.
-##### Don't:
+##### Don'ts (yang harus dihindari):
 ❌ Jangan install versi 32-bit, kecuali laptop kamu memang nggak support 64-bit (rata-rata sih udah support).
 ##### 🪜 Langkah-langkah Mengunduh:
 Buka browser, lalu kunjungi:
@@ -115,7 +115,8 @@ Biar kamu nggak kena masalah di tengah jalan, misalnya conda nggak dikenali atau
 3. jika muncul sesuatu seperti ini:
    
    ![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.6.png?raw=true)
-berarti Anaconda kamu udah sukses ke-install dan siap dipakai! 🎉
+
+   berarti Anaconda kamu udah sukses ke-install dan siap dipakai! 🎉
 ##### ❗Kalau Nggak Muncul?
 1. Coba restart laptop dulu, terus ulangi langkah di atas.
 2. Kalau tetap nggak muncul, mungkin opsi PATH-nya belum dicentang waktu instalasi. Tapi tenang, masih bisa diatur nanti secara manual.
