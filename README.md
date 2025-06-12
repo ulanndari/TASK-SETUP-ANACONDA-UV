@@ -208,10 +208,10 @@ Folder proyek itu kayak rumah khusus buat satu pekerjaan. Semua file, kode, note
    Ini akan buka Command Prompt.
 2. Ketik perintah ini buat bikin folder:
 ##### mkdir C:\Users\NAMA_ANDA\ghost_intellix
-Ganti NAMA_ANDA dengan nama user di laptop kamu.
-3. Kalau berhasil, nanti akan muncul folder baru di lokasi itu. Bisa dicek lewat File Explorer juga.
-4. Masuk ke folder proyek kamu:
+![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.8.png?raw=true)
+3. Kemudian Masuk ke folder proyek kamu:
 ##### cd C:\Users\NAMA_ANDA\ghost_intellix
+![Alt](?raw=true)
 Jangan lupa ganti NAMA_ANDA dengan nama user di laptop kamu.
 ##### ✅ Tekan Enter setelah mengetik perintahnya.
 5. Sekarang kamu udah “berada” di dalam folder itu (di terminal).
