@@ -58,7 +58,7 @@ Install Anaconda, Atur PATH biar dikenali sistem, Hubungkan ke VS Code, Bikin li
 ##### 📌 Tutorial ini cocok banget buat pemula, dan fokus utamanya di Windows. Tapi tenang, kalau kamu pakai macOS atau Linux, konsepnya tetap sama—cuma butuh sedikit penyesuaian.
 ##### ⚠️ Catatan Penting:
 Pastikan koneksi internet kamu stabil selama proses instalasi ya. Karena beberapa bagian butuh download file dari internet, jadi biar nggak gagal di tengah jalan.
-#### 🐍 1.1 Mengunduh Anaconda
+#### 🐍 1. Mengunduh Anaconda
 ##### Apa sih Anaconda itu?
 Anaconda adalah “paket lengkap” Python yang udah dibekali ratusan library buat analisis data, statistik, dan komputasi ilmiah. Jadi, kamu nggak perlu ribet install satu-satu secara manual.
 ##### Kenapa harus pakai Anaconda?
@@ -103,7 +103,7 @@ Karena Anaconda nggak cuma ngasih kamu Python, tapi juga banyak pustaka (library
 ##### ❌ Don’ts (Yang Sebaiknya Dihindari):
 1. Jangan instal Anaconda ke folder sistem kayak C:\Windows atau C:\Program Files (x86) — bisa bikin error atau butuh izin admin.
 2. Jangan klik cancel di tengah proses instalasi, apalagi pas udah jalan setengah. Bisa bikin file jadi setengah jadi dan error pas dijalankan.
-#### ✅ Verifikasi Anaconda Sudah Terpasang dan Bisa Diakses
+#### 3. ✅ Verifikasi Anaconda Sudah Terpasang dan Bisa Diakses
 ##### Apa sih maksudnya?
 Di sini kita mau cek dulu, apakah Anaconda udah beneran ke-install dan bisa dijalankan lewat terminal atau command prompt. Ibaratnya, ini kayak test drive buat lihat apakah semuanya oke sebelum lanjut ke langkah berikutnya.
 ##### Kenapa perlu dicek?
@@ -113,7 +113,26 @@ Biar kamu nggak kena masalah di tengah jalan, misalnya conda nggak dikenali atau
 (klik Start → ketik "cmd" → Enter)
 2. Tekan Enter.
 3. jika muncul sesuatu seperti ini:
-   ![Alt](
+   ![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.6.png?raw=true)
+   berarti Anaconda kamu udah sukses ke-install dan siap dipakai! 🎉
+##### ❗Kalau Nggak Muncul?
+1. Coba restart laptop dulu, terus ulangi langkah di atas.
+2. Kalau tetap nggak muncul, mungkin opsi PATH-nya belum dicentang waktu instalasi. Tapi tenang, masih bisa diatur nanti secara manual.
+##### ✅ Do’s (Yang Perlu Dilakukan):
+1. Buka terminal baru dulu (jangan pakai yang lama) setelah instalasi selesai — biar pengaturan PATH yang baru kebaca dengan benar.
+2. Pastikan perintah jalan tanpa error, dan muncul versi conda — itu tandanya Anaconda udah siap dipakai.
+##### ❌ Don’ts (Yang Harus Dihindari):
+Jangan cuek kalau ada error atau nggak muncul apa-apa. Itu bisa jadi tanda ada yang salah pas instalasi. Lebih baik dicek sekarang daripada nanti pusing pas lagi butuh.
+#### 4. 🛠️ Cara Menambahkan Anaconda ke PATH (Biar Bisa Diakses dari Mana Aja)
+Kadang setelah instalasi, Anaconda belum otomatis bisa dipanggil dari terminal atau CMD. Nah, di sinilah kita tambahkan sendiri ke PATH, supaya conda dan python bisa langsung dikenali dari mana saja.
+##### 🪜 Langkah-langkah di Windows:
+1. Tekan  Windows + R, ketik sysdm.cpl, tekan Enter.
+2. Buka tab "Advanced", lalu klik tombol "Environment Variables…"
+3. Di bagian bawah (System variables), cari dan klik Path, lalu klik Edit.
+4. Klik New, lalu tambahkan dua baris ini (ganti NAMA_ANDA dengan nama user di laptop kamu):
+5. 
+
+
 
  
 
