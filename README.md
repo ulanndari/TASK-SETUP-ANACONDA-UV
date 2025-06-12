@@ -53,6 +53,32 @@ Intinya, dengan setup yang rapi, kerjaan kamu jadi lancar, bebas konflik, dan le
 👍 Ikuti setiap langkah dengan saksama biar setup-nya lancar dan nggak bikin pusing di tengah jalan.
 ##### Don't:
 🚫 Jangan skip bagian verifikasi ya—karena bagian ini penting banget buat ngecek apakah semua udah jalan dengan benar dari awal.
+##### Panduan ini bakal ngajarin kamu cara:
+Install Anaconda, Atur PATH biar dikenali sistem, Hubungkan ke VS Code, Bikin lingkungan virtual pakai Conda dan UV, Setting Jupyter Notebook, Lihat perbandingan Conda vs UV, Rekomendasi pustaka penting, Dan tips buat ngatasin masalah yang sering muncul
+##### 📌 Tutorial ini cocok banget buat pemula, dan fokus utamanya di Windows. Tapi tenang, kalau kamu pakai macOS atau Linux, konsepnya tetap sama—cuma butuh sedikit penyesuaian.
+##### ⚠️ Catatan Penting:
+Pastikan koneksi internet kamu stabil selama proses instalasi ya. Karena beberapa bagian butuh download file dari internet, jadi biar nggak gagal di tengah jalan.
+#### 🐍 1.1 Mengunduh Anaconda
+##### Apa sih Anaconda itu?
+Anaconda adalah “paket lengkap” Python yang udah dibekali ratusan library buat analisis data, statistik, dan komputasi ilmiah. Jadi, kamu nggak perlu ribet install satu-satu secara manual.
+##### Kenapa harus pakai Anaconda?
+Dengan install Anaconda, kamu langsung dapet banyak alat penting buat Data Science—kayak Jupyter Notebook, Spyder, dan library populer seperti pandas, numpy, dll.
+Jadi lebih hemat waktu dan lebih aman karena semua udah diatur biar kompatibel.
+##### Do:
+✔️ Pilih Python versi 3.12, karena ini versi terbaru dan paling kompatibel sama banyak pustaka.
+##### Don't:
+❌ Jangan install versi 32-bit, kecuali laptop kamu memang nggak support 64-bit (rata-rata sih udah support).
+##### 🪜 Langkah-langkah Mengunduh:
+Buka browser, lalu kunjungi:
+##### 1. 👉 https://www.anaconda.com/download
+
+##### Pilih versi Windows, lalu klik:
+##### 🖱️ Python 3.12 64-Bit Graphical Installer (ukuran sekitar 921MB)
+
+##### Simpan file installer-nya di Desktop atau di folder Unduhan supaya gampang dicari nanti.
+
+
+
 
 
  
