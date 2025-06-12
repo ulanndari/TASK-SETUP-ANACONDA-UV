@@ -85,10 +85,9 @@ Ini adalah proses menginstal Anaconda ke laptop kamu — biar Python dan semua a
 Kenapa perlu install Anaconda?
 Karena Anaconda nggak cuma ngasih kamu Python, tapi juga banyak pustaka (library) penting seperti numpy, pandas, matplotlib, bahkan udah termasuk Jupyter Notebook dan Spyder IDE. Jadi kamu nggak perlu install satu-satu lagi. Hemat waktu, hemat tenaga!
 ##### 🪜 Langkah-langkah Instalasinya:
-Klik dua kali file installer Anaconda yang udah kamu download sebelumnya.
-
-Akan muncul wizard instalasi — tinggal klik “Next” beberapa kali.
-
+1. Klik dua kali file installer Anaconda yang udah kamu download sebelumnya.
+2. Akan muncul wizard instalasi — tinggal klik “Next” beberapa kali.
+![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.4.png?raw=treu)
 Saat muncul pilihan:
 
 “Add Anaconda to my PATH environment variable”
