@@ -88,16 +88,10 @@ Karena Anaconda nggak cuma ngasih kamu Python, tapi juga banyak pustaka (library
 1. Klik dua kali file installer Anaconda yang udah kamu download sebelumnya.
 2. Akan muncul wizard instalasi — tinggal klik “Next” beberapa kali.
 ![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.4.png?raw=treu)
-Saat muncul pilihan:
-
+3. Saat muncul pilihan:
+![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.5.png?raw=treu)
 “Add Anaconda to my PATH environment variable”
-kamu boleh centang ini biar Anaconda bisa langsung dikenali lewat Command Prompt.
-Tapi kalau kamu pemula dan bingung, boleh juga dilewatin (nggak dicentang). Nanti bisa tetap diakses lewat shortcut.
-
-Klik Install, lalu tunggu prosesnya selesai. Bisa makan waktu beberapa menit tergantung spek laptop kamu.
-
-
-
+4. Klik Install, lalu tunggu prosesnya selesai. Bisa makan waktu beberapa menit tergantung spek laptop kamu.
 
 
 
