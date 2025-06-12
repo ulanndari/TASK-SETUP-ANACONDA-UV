@@ -70,12 +70,34 @@ Jadi lebih hemat waktu dan lebih aman karena semua udah diatur biar kompatibel.
 ❌ Jangan install versi 32-bit, kecuali laptop kamu memang nggak support 64-bit (rata-rata sih udah support).
 ##### 🪜 Langkah-langkah Mengunduh:
 Buka browser, lalu kunjungi:
-##### 1. 👉 https://www.anaconda.com/download
+##### 1. Download Installer Anaconda
+👉 https://www.anaconda.com/download
+![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.1.png?raw=true)
+##### ✅ Do's:
+1. Download langsung dari situs resmi Anaconda 👉 biar aman dan terjamin.
+2. Simpan file installernya di folder yang gampang dicari, misalnya di Desktop atau folder Download — jadi nggak ribet pas mau install nanti.
+##### ❌ Don’ts:
+1. Jangan asal download dari situs lain atau link nggak jelas — bisa aja isinya virus atau installer palsu.
+2. Jangan simpan file installer di folder sistem kayak C:\Windows — itu bikin ribet dan kadang butuh izin admin.
+##### 🛠️ 2. Jalankan Installer Anaconda
+###### Apa sih maksudnya?
+Ini adalah proses menginstal Anaconda ke laptop kamu — biar Python dan semua alat bantu data science siap dipakai.
+Kenapa perlu install Anaconda?
+Karena Anaconda nggak cuma ngasih kamu Python, tapi juga banyak pustaka (library) penting seperti numpy, pandas, matplotlib, bahkan udah termasuk Jupyter Notebook dan Spyder IDE. Jadi kamu nggak perlu install satu-satu lagi. Hemat waktu, hemat tenaga!
+##### 🪜 Langkah-langkah Instalasinya:
+Klik dua kali file installer Anaconda yang udah kamu download sebelumnya.
 
-##### Pilih versi Windows, lalu klik:
-##### 🖱️ Python 3.12 64-Bit Graphical Installer (ukuran sekitar 921MB)
+Akan muncul wizard instalasi — tinggal klik “Next” beberapa kali.
 
-##### Simpan file installer-nya di Desktop atau di folder Unduhan supaya gampang dicari nanti.
+Saat muncul pilihan:
+
+“Add Anaconda to my PATH environment variable”
+kamu boleh centang ini biar Anaconda bisa langsung dikenali lewat Command Prompt.
+Tapi kalau kamu pemula dan bingung, boleh juga dilewatin (nggak dicentang). Nanti bisa tetap diakses lewat shortcut.
+
+Klik Install, lalu tunggu prosesnya selesai. Bisa makan waktu beberapa menit tergantung spek laptop kamu.
+
+
 
 
 
