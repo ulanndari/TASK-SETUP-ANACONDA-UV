@@ -158,13 +158,14 @@ Lingkungan Conda adalah ruang kerja virtual yang terisolasi untuk Python dan pak
 1. Buka Terminal di VS Code
 2. Tekan Ctrl + ` (tanda backtick di bawah tombol Esc)
 3. Jalankan perintah berikut untuk membuat environment:
-#####conda create -p venv python=3.12
+##### conda create -p venv python=3.12
 Catatan:
 1. -p venv artinya membuat environment di folder ./venv dalam proyek kamu
 2. python=3.12 menentukan versi Python yang digunakan
 Saat muncul pertanyaan:
 Proceed ([y]/n)?
 ##### ➡️ Ketik y lalu tekan Enter
+![Alt](?raw=true)
 ##### Setelah selesai, aktifkan environment dengan:
 conda activate ./venv
 ##### Prompt terminal akan berubah menjadi:
