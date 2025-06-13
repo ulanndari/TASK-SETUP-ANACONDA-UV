@@ -243,7 +243,7 @@ Jangan buat notebook di luar environment virtual, nanti gak bisa akses paket-pak
 🔍 Apa itu?
 Conda dan UV adalah dua alat manajemen paket dan environment di Python, namun ditujukan untuk kebutuhan yang berbeda.
 
-![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.14png?raw=true)
+![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.16.png?raw=true)
 
 🎯 Kenapa Perlu Dibandingkan?
 Karena pilihan alat akan memengaruhi kecepatan kerja, kompatibilitas paket, dan manajemen proyek. Menggunakan alat yang sesuai bisa menghemat waktu dan menghindari konflik antar dependensi.
@@ -255,7 +255,7 @@ Karena pilihan alat akan memengaruhi kecepatan kerja, kompatibilitas paket, dan 
 #### Langkah-langkah:
 1. Buat requirements.txt:
    
-![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.16.png?raw=true)
+![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.15.png?raw=true)
 
 2. Instal:
 ###### uv add -r requirements.txt
