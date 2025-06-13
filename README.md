@@ -38,27 +38,8 @@ Fungsinya mirip seperti pip dan venv, tetapi:
 ##### 🔐 Bisa membuat lock file untuk kestabilan dependensi
 ##### 🔄 Kompatibel dengan pyproject.toml
 _________________________________________________________________________________________________________________________________________________________________________________________
-## Panduan Lengkap untuk Pengaturan Lingkungan Anaconda, Conda, dan UV
-### Pendahuluan
-##### ❓ Apa itu Panduan Ini?
-Panduan ini bakal ngebantu kamu menyiapkan lingkungan kerja Python dengan dua alat keren: Anaconda dan UV.
-Anaconda itu semacam “paket komplit” Python yang udah siap pakai untuk data science dan komputasi ilmiah.
-Sementara UV adalah alat baru yang super cepat buat ngatur pustaka (library) dan lingkungan virtual—kayak pip, tapi lebih ngebut.
-##### ❓ Kenapa Perlu Ini?
-Kalau kamu suka coding buat data, AI, atau machine learning, pasti pernah ngalamin error karena pustaka nggak cocok atau versi bentrok. Nah, solusi paling aman adalah pakai lingkungan terpisah buat tiap proyek.
-Dengan Anaconda, kamu nggak perlu ribet install satu-satu—semua udah ada. Dan kalau mau yang lebih ringan dan cepat, UV bisa jadi pilihan pas.
-Intinya, dengan setup yang rapi, kerjaan kamu jadi lancar, bebas konflik, dan lebih fokus ke ngoding, bukan beresin error.
-##### ✅ Do & Don'ts
-##### Do"s (yang sebaiknya dilakukan):
-👍 Ikuti setiap langkah dengan saksama biar setup-nya lancar dan nggak bikin pusing di tengah jalan.
-##### Don'ts (yang harus dihindari):
-🚫 Jangan skip bagian verifikasi ya—karena bagian ini penting banget buat ngecek apakah semua udah jalan dengan benar dari awal.
-##### Panduan ini bakal ngajarin kamu cara:
-Install Anaconda, Atur PATH biar dikenali sistem, Hubungkan ke VS Code, Bikin lingkungan virtual pakai Conda dan UV, Setting Jupyter Notebook, Lihat perbandingan Conda vs UV, Rekomendasi pustaka penting, Dan tips buat ngatasin masalah yang sering muncul
-##### 📌 Tutorial ini cocok banget buat pemula, dan fokus utamanya di Windows. Tapi tenang, kalau kamu pakai macOS atau Linux, konsepnya tetap sama—cuma butuh sedikit penyesuaian.
-##### ⚠️ Catatan Penting:
-Pastikan koneksi internet kamu stabil selama proses instalasi ya. Karena beberapa bagian butuh download file dari internet, jadi biar nggak gagal di tengah jalan.
-#### 🐍 1. Mengunduh Anaconda
+## Panduan untuk Pengaturan Lingkungan Anaconda, Conda, dan UV
+### 🐍 1. Mengunduh Anaconda
 ##### Apa sih Anaconda itu?
 Anaconda adalah “paket lengkap” Python yang udah dibekali ratusan library buat analisis data, statistik, dan komputasi ilmiah. Jadi, kamu nggak perlu ribet install satu-satu secara manual.
 ##### Kenapa harus pakai Anaconda?
@@ -80,7 +61,7 @@ Buka browser, lalu kunjungi:
 ##### ❌ Don’ts (Yang Sebaiknya Dihindari):
 1. Jangan asal download dari situs lain atau link nggak jelas — bisa aja isinya virus atau installer palsu.
 2. Jangan simpan file installer di folder sistem kayak C:\Windows — itu bikin ribet dan kadang butuh izin admin.
-#### 🛠️ 2. Jalankan Installer Anaconda
+### 🛠️ 2. Jalankan Installer Anaconda
 ###### Apa sih maksudnya?
 Ini adalah proses menginstal Anaconda ke laptop kamu — biar Python dan semua alat bantu data science siap dipakai.
 Kenapa perlu install Anaconda?
@@ -103,7 +84,7 @@ Karena Anaconda nggak cuma ngasih kamu Python, tapi juga banyak pustaka (library
 ##### ❌ Don’ts (Yang Sebaiknya Dihindari):
 1. Jangan instal Anaconda ke folder sistem kayak C:\Windows atau C:\Program Files (x86) — bisa bikin error atau butuh izin admin.
 2. Jangan klik cancel di tengah proses instalasi, apalagi pas udah jalan setengah. Bisa bikin file jadi setengah jadi dan error pas dijalankan.
-#### 3. ✅ Verifikasi Anaconda Sudah Terpasang dan Bisa Diakses
+### 3. ✅ Verifikasi Anaconda Sudah Terpasang dan Bisa Diakses
 ##### Apa sih maksudnya?
 Di sini kita mau cek dulu, apakah Anaconda udah beneran ke-install dan bisa dijalankan lewat terminal atau command prompt. Ibaratnya, ini kayak test drive buat lihat apakah semuanya oke sebelum lanjut ke langkah berikutnya.
 ##### Kenapa perlu dicek?
@@ -125,7 +106,7 @@ Biar kamu nggak kena masalah di tengah jalan, misalnya conda nggak dikenali atau
 2. Pastikan perintah jalan tanpa error, dan muncul versi conda — itu tandanya Anaconda udah siap dipakai.
 ##### ❌ Don’ts (Yang Harus Dihindari):
 Jangan cuek kalau ada error atau nggak muncul apa-apa. Itu bisa jadi tanda ada yang salah pas instalasi. Lebih baik dicek sekarang daripada nanti pusing pas lagi butuh.
-#### 4. 🛠️ Cara Menambahkan Anaconda ke PATH (Biar Bisa Diakses dari Mana Aja)
+### 4. 🛠️ Cara Menambahkan Anaconda ke PATH (Biar Bisa Diakses dari Mana Aja)
 Kadang setelah instalasi, Anaconda belum otomatis bisa dipanggil dari terminal atau CMD. Nah, di sinilah kita tambahkan sendiri ke PATH, supaya conda dan python bisa langsung dikenali dari mana saja.
 ##### 🪜 Langkah-langkah di Windows:
 1. Tekan  Windows + R, ketik sysdm.cpl, tekan Enter.
@@ -140,7 +121,7 @@ Kadang setelah instalasi, Anaconda belum otomatis bisa dipanggil dari terminal a
 ##### ❌ Don’ts (Yang Harus Dihindari):
 1. Jangan asal hapus isi PATH lain — itu bisa bikin program penting lain di laptop kamu jadi nggak jalan.
 2. Edit variabel lingkungan dengan hati-hati, karena ini menyangkut sistem. Kalau ragu, sebaiknya dicatat dulu isi PATH sebelumnya sebelum mengubah.
-#### 5. 💻 Menginstal VS Code (Visual Studio Code)
+### 5. 💻 Menginstal VS Code (Visual Studio Code)
 ##### Apa itu?
 VS Code adalah editor kode ringan tapi canggih. Cocok banget buat ngoding Python, termasuk buat proyek Data Science atau Machine Learning.###
 ##### Kenapa pakai VS Code?
@@ -160,7 +141,7 @@ Karena dia punya fitur pintar kayak:
 1. Kunjungi situs resminya:
 👉https://code.visualstudio.com/
 2. Klik tombol Download for Windows.
-#### 6. 🛠️ Membuat Lingkungan Conda
+### 6. 🛠️ Membuat Lingkungan Conda
 ##### 📌 Apa itu Lingkungan Conda?
 Lingkungan Conda adalah ruang kerja virtual yang terisolasi untuk Python dan paket-paket yang digunakan dalam proyek tertentu.
 ##### ❓ Kenapa Perlu Lingkungan Conda?
@@ -204,73 +185,6 @@ bash
 Salin
 Edit
 python main.py
-
-4. Buka file .exe hasil download tadi.
-5. Saat instalasi, pastikan kamu centang semua ini:
-##### ✅ Tambahkan “Open with Code” di menu klik kanan (Explorer)
-##### ✅ Jadikan VS Code sebagai editor default
-##### ✅ Tambahkan ke PATH (penting!)
-Klik Next → Next → Install, tunggu sampai selesai.
-##### 🧩 Ekstensi Penting di VS Code
-###### Apa sih ekstensi itu?
-Ekstensi adalah fitur tambahan yang bisa kamu pasang di VS Code untuk bikin kerjaan kamu lebih gampang — misalnya untuk nulis, ngejalanin, atau debug kode Python dan Jupyter Notebook.
-###### Kenapa butuh ekstensi?
-Tanpa ekstensi, VS Code cuma editor biasa. Tapi dengan ekstensi seperti Python dan Jupyter, kamu bisa:
-1. Ngedebug kode langsung
-2. Jalanin cell kayak di Jupyter
-3. Auto-format kode
-4. Liat variable dan output dengan rapi
-##### ✅ Do’s (Yang sebaiknya dilakukan):
-1. Pasang ekstensi resmi dari Microsoft biar lebih stabil dan aman.
-2. Gunakan fitur pencarian di panel ekstensi buat nemuin yang kamu butuh.
-##### ❌ Don’ts (Yang Harus Dihindari):
-Jangan asal pasang banyak ekstensi yang nggak jelas fungsinya — bisa bikin VS Code jadi berat dan membingungkan.
-##### 🪜 Cara Instal Ekstensinya:
-1. Buka VS Code
-2. Tekan shortcut:
-##### Ctrl + Shift + X
-Ini bakal buka panel ekstensi di samping kiri.
-3. Cari dan instal ekstensi berikut (yang dibuat oleh Microsoft):
-##### 🐍 Python
-##### 📓 Jupyter
-Klik tombol Install di masing-masing ekstensi.
-#### 📁 Membuat Folder Proyek
-##### Apa maksudnya?
-Folder proyek itu kayak rumah khusus buat satu pekerjaan. Semua file, kode, notebook, dan data kamu disimpan di situ — jadi rapi dan gampang dicari.
-##### Kenapa penting?
- Dengan folder khusus, kamu bisa:
-1. Ngelola file proyek biar nggak nyampur sama yang lain
-2. Bikin environment conda/uv yang khusus untuk folder itu
-3. Kerja lebih terorganisir, apalagi kalau proyeknya gede atau kerja bareng tim
-##### ✅ Do’s (yang sebaiknya dilakukan):
-1. Kasih nama folder yang jelas, misalnya: ghost_intellix, analisis_cuaca, atau proyek_ta
-2. Simpan di tempat yang gampang diakses, misalnya di dalam folder Documents atau C:\Users\NamaKamu\
-##### ❌ Don’ts (yang harus dihindari) :
-1. Jangan bikin folder di flashdisk atau drive eksternal — bisa bikin error atau lambat.
-2. Hindari folder sistem seperti C:\Windows atau C:\Program Files.
-##### 🪜 Langkah-langkah Bikin Folder:
-1. Tekan Windows + R, ketik cmd, lalu Enter.
-   Ini akan buka Command Prompt.
-2. Ketik perintah ini buat bikin folder:
-##### mkdir C:\Users\NAMA_ANDA\ghost_intellix
-![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.8.png?raw=true)
-
-3. Kemudian Masuk ke folder proyek kamu:
-##### cd C:\Users\NAMA_ANDA\ghost_intellix
-![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.9.png?raw=true)
-
-###### ❗Jangan lupa ganti NAMA_ANDA dengan nama user di laptop kamu.
-##### ✅ Tekan Enter setelah mengetik perintahnya.
-5. Sekarang kamu udah “berada” di dalam folder itu (di terminal).
-Untuk langsung buka folder ini di VS Code, ketik:
-##### code .
-##### ✅ Tekan Enter. Kalau VS Code terbuka dan nunjuk ke folder ghost_intellix, berarti sukses!
-##### 🎉 Dengan begitu:
-Folder ghost_intellix udah siap buat dijadikan proyek Python
-1. VS Code udah kebuka di folder itu
-2. Kamu bisa mulai bikin file .py atau .ipynb, dan lanjut kerja
-
-
 
 
 
