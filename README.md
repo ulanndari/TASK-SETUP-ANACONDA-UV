@@ -258,12 +258,12 @@ Biar tiap proyek punya ruang sendiri dan gak bikin konflik, apalagi kalau beda v
 Aktifkan environment sebelum install paket.
 ##### ❌ don'ts (Jangan lakukan ini):
 Jangan utak-atik folder .venv secara manual, biarin UV yang ngurus.
-##### 🚀 Langkah-langkah Bikin dan Aktifkan Environment:
-1. Bikin environment dengan UV:
+##### 🚀 Langkah-langkah Bikin dan Aktifkan Environment
+##### 1. Ketik:
 ###### uv venv
-2. Ini akan otomatis bikin folder .venv di dalam proyek kamu.
-Aktifkan environment-nya:
+##### 2. Aktifkan:
 ###### .venv\Scripts\activate
+Prompt berubah ke (ghost_intellixuv) C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv>.
 3. Ciri-ciri environment sudah aktif:
 Prompt di terminal bakal berubah, misalnya jadi:
 ###### (ghost_intellixuv) C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv>
