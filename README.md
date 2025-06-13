@@ -123,7 +123,7 @@ Kadang setelah instalasi, Anaconda belum otomatis bisa dipanggil dari terminal a
 2. Edit variabel lingkungan dengan hati-hati, karena ini menyangkut sistem. Kalau ragu, sebaiknya dicatat dulu isi PATH sebelumnya sebelum mengubah.
 ### 5. 💻 Menginstal VS Code (Visual Studio Code)
 ##### Apa itu?
-VS Code adalah editor kode ringan tapi canggih. Cocok banget buat ngoding Python, termasuk buat proyek Data Science atau Machine Learning.###
+VS Code adalah editor kode ringan tapi canggih. Cocok banget buat ngoding Python, termasuk buat proyek Data Science atau Machine Learning.
 ##### Kenapa pakai VS Code?
 Karena dia punya fitur pintar kayak:
 1. Auto-complete kode
@@ -165,7 +165,7 @@ Catatan:
 Saat muncul pertanyaan:
 Proceed ([y]/n)?
 ##### ➡️ Ketik y lalu tekan Enter
-![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/commit/5cd4f67d3eb926834dea3daeb235a12ff44e438f?raw=true)
+![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.11.pngraw=true)
 ##### Setelah selesai, aktifkan environment dengan:
 conda activate ./venv
 ##### Prompt terminal akan berubah menjadi:
