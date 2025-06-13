@@ -243,13 +243,13 @@ Jangan buat notebook di luar environment virtual, nanti gak bisa akses paket-pak
 2. Pilih .venv (Python 3.12.7) ghost_intellixuv\.venv\Scripts\python.exe.
 3. Alternatif: Ctrl+Shift+P → "Select Kernel".
 ##### ✨ Sekarang kamu bisa nulis kode, uji langsung, dan bikin visualisasi tanpa ribet!
-⚖️ Perbandingan Conda vs UV
-🔍 Apa itu?
+### ⚖️ Perbandingan Conda vs UV
+##### 🔍 Apa itu?
 Conda dan UV adalah dua alat manajemen paket dan environment di Python, namun ditujukan untuk kebutuhan yang berbeda.
 
 ![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.16.png?raw=true)
 
-🎯 Kenapa Perlu Dibandingkan?
+##### 🎯 Kenapa Perlu Dibandingkan?
 Karena pilihan alat akan memengaruhi kecepatan kerja, kompatibilitas paket, dan manajemen proyek. Menggunakan alat yang sesuai bisa menghemat waktu dan menghindari konflik antar dependensi.
 ## Daftar Paket yang Direkomendasikan
 ##### Apa: Paket penting untuk Data Science, Machine Learning, dan AI.
