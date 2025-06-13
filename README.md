@@ -255,7 +255,7 @@ Karena pilihan alat akan memengaruhi kecepatan kerja, kompatibilitas paket, dan 
 #### Langkah-langkah:
 1. Buat requirements.txt:
    
-![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.15.png?raw=true)
+![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.16.png?raw=true)
 
 2. Instal:
 ###### uv add -r requirements.txt
