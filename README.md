@@ -282,11 +282,11 @@ Jangan campur UV dan pip dalam proyek yang sama, nanti bisa bikin konflik depend
 Ketik perintah:
 ###### uv add pandas
 2. output seperti
-![Alt](?raw=true)
+![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.13.png?raw=true)
 ##### 📝 Catatan Penting:
 UV jauh lebih cepat dibanding pip, apalagi kalau kamu install paket yang punya banyak “anak paket” alias dependency tree yang besar — contohnya pandas, scikit-learn, atau tensorflow.
 ##### 💡 Jadi kalau proyekmu makin kompleks, UV justru makin terasa manfaatnya: lebih cepat, lebih efisien, dan tetap rapi.
-####🔌 Menonaktifkan Lingkungan UV
+#### 🔌 Menonaktifkan Lingkungan UV
 ##### Apa sih maksudnya?
 Menonaktifkan environment itu artinya keluar dari “dunia proyek” sementara, dan balik lagi ke sistem global Python kamu.
 ##### Kenapa perlu?
@@ -302,5 +302,65 @@ Jangan biarkan environment tetap aktif kalau kamu udah gak ngoding lagi.
 ###### C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv>
 Artinya kamu sudah keluar dari lingkungan virtual UV.
 ###### ✨ Sekarang kamu udah tahu cara masuk dan keluar dari environment. Rapi, aman, dan siap untuk proyek berikutnya!
-
-
+### 8. 📓 Membuat Notebook di VS Code
+##### Apa sih notebook itu?
+Notebook (dengan ekstensi .ipynb) itu semacam dokumen interaktif buat nulis kode Python, catatan, dan grafik — semuanya dalam satu tempat. Biasanya dipakai buat eksplorasi data, visualisasi, atau eksperimen model AI.
+##### Kenapa pakai notebook?
+Karena enak banget! Kamu bisa nulis kode, langsung jalanin, dan lihat hasilnya tanpa pindah-pindah jendela. Cocok buat analisis data atau ngulik kode.
+##### ✅ do's (Lakukan ini):
+Simpan notebook langsung di dalam folder proyek kamu.
+##### ❌ don'ts (Jangan lakukan ini):
+Jangan buat notebook di luar environment virtual, nanti gak bisa akses paket-paket proyek.
+1. Di VS Code, buat folder 1-Langchain.
+2. Klik kanan → New File → test.ipynb.
+#### Memilih Kernel
+##### Apa: Kernel menentukan lingkungan Python untuk notebook.
+##### Kenapa: Kernel yang benar memastikan akses ke paket proyek.
+##### Do's: Verifikasi kernel sesuai lingkungan.
+##### Don'ts: Jangan gunakan kernel sistem default.
+#### Langkah-langkah:
+1. Klik pemilih kernel di kanan atas notebook.
+2. Pilih .venv (Python 3.12.7) ghost_intellixuv\.venv\Scripts\python.exe.
+3. Alternatif: Ctrl+Shift+P → "Select Kernel".
+##### ✨ Sekarang kamu bisa nulis kode, uji langsung, dan bikin visualisasi tanpa ribet!
+## Perbandingan Conda vs UV
+##### Apa: Perbandingan fitur Conda dan UV.
+##### Kenapa: Membantu memilih alat sesuai kebutuhan proyek.
+##### Do's: Gunakan Conda untuk ilmiah, UV untuk cepat.
+##### Don'ts: Jangan campur keduanya tanpa alasan.
+![Alt](?raw=true)
+## Daftar Paket yang Direkomendasikan
+##### Apa: Paket penting untuk Data Science, Machine Learning, dan AI.
+##### Kenapa: Memastikan alat yang diperlukan tersedia.
+##### Do's: Perbarui versi paket secara berkala.
+##### Don'ts: Jangan instal paket yang tidak diperlukan.
+####Langkah-langkah:
+1. Buat requirements.txt:
+![Alt](?raw=true)
+3. Instal:
+###### uv add -r requirements.txt
+3. atau
+###### pip install -r requirements.txt
+## Panduan Pemecahan Masalah
+##### Apa: Solusi untuk masalah umum selama pengaturan.
+##### Kenapa: Memecahkan masalah cepat meminimalkan hambatan.
+##### Do's: Catat pesan kesalahan.
+##### Don'ts: Jangan abaikan peringatan.
+#### Masalah 1: Perintah Conda Tidak Dikenali
+##### Gejala: 'conda' is not recognized
+##### Solusi:
+##### Verifikasi instalasi Anaconda.
+##### Periksa PATH.
+##### Jalankan conda init cmd.exe, mulai ulang terminal.
+#### Masalah 2: Aktivasi Lingkungan Gagal
+##### Gejala: Script execution is disabled
+##### Solusi:
+##### Jalankan PowerShell sebagai Administrator.
+##### Ketik Set-ExecutionPolicy RemoteSigned.
+##### Pilih "Y".
+#### Masalah 3: Kesalahan Instalasi Paket
+##### Gejala: Could not find a version
+##### Solusi:
+##### Perbarui pip: python -m pip install --upgrade pip.
+##### Periksa kompatibilitas Python.
+##### Coba versi paket lain
