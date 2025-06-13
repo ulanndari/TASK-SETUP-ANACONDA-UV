@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/2b94f515-1cb9-4e44-9e7e-f0bf304f79c4)# TASK-SETUP-ANACONDA-UV
 ## 📣 Haloo..Dear Eco Techno Leaders
 Mari kita sama-sama mempelajari environment setup untuk Data Science/AI dengan:
 ##### ✅ Anaconda
