@@ -165,7 +165,7 @@ Catatan:
 Saat muncul pertanyaan:
 Proceed ([y]/n)?
 ##### ➡️ Ketik y lalu tekan Enter
-![Alt](?raw=true)
+![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/commit/5cd4f67d3eb926834dea3daeb235a12ff44e438f?raw=true)
 ##### Setelah selesai, aktifkan environment dengan:
 conda activate ./venv
 ##### Prompt terminal akan berubah menjadi:
@@ -179,11 +179,30 @@ Install dependensi proyek:
 pip install -r requirements.txt
 Jalankan file Python utama:
 python main.py
+#### 🎒 Menginstal Paket Python
+##### Apa sih ini?
+Instal paket itu artinya nambahin “alat bantu” atau pustaka ke proyek kita, biar kerjaan kita lebih gampang. Contohnya kayak pandas buat ngolah data, atau numpy buat hitung-hitungan cepat.
+##### Kenapa penting?
+Karena nggak mungkin semua kita kerjain dari nol. Paket-paket ini bantu banget, apalagi buat analisis data, machine learning, atau web development.
+##### ✅ Do's (yanng sebaiknya dilakukan):
+Buat file requirements.txt buat nyimpan daftar paket. Praktis kalau proyek dipindah ke komputer lain.
+##### ❌ Don'ts (yang tidak dilakukan):
+Hindari install langsung di base environment (lingkungan dasar). Bikin environment sendiri biar rapi dan nggak bentrok antar proyek.
+##### 🚶‍♂️Langkah-langkah Bikin requirements.txt di VS Code:
+1. Buka folder proyek kamu
+2. Jalankan VS Code dan buka folder C:\Users\ACER\ghost_intellix.
+Buat file baru:
+###### Klik menu File → New File,
+###### Atau klik kanan di panel kiri (Explorer) → New File.
+###### Kasih nama:
+###### Tulis requirements.txt terus tekan Enter.
+###### Isi paket yang dibutuhkan:
+###### Contoh isinya bisa begini:
 
+![Alt](?raw=true)
 
-
-
-
+3. Simpan file dengan File → Save atau Ctrl+S.
+4. Pastikan file berada di root folder proyek (C:\Users\NAMA_ANDA\ghost_intellix).
 
 
  
