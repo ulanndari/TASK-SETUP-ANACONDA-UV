@@ -169,21 +169,14 @@ Proceed ([y]/n)?
 conda activate ./venv
 ##### Prompt terminal akan berubah menjadi:
 (venv) C:\Users\ACER\ghost_intellix>
-![Alt](?raw=true)
+
+![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.10.png?raw=true)
+
 Artinya environment berhasil diaktifkan.
-
-🚀 Langkah Berikutnya (Setelah Environment Aktif)
+##### 🚀 Langkah Berikutnya (Setelah Environment Aktif)
 Install dependensi proyek:
-
-bash
-Salin
-Edit
 pip install -r requirements.txt
 Jalankan file Python utama:
-
-bash
-Salin
-Edit
 python main.py
 
 
