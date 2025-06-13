@@ -295,3 +295,5 @@ Ketik Y untuk mengonfirmasi.
 ### Pilihan cepat:
 1. Data/ML berat & paket C/CUDA → Conda/Anaconda
 2. Proyek Python murni & butuh kecepatan → UV
+
+# Terimakasih...byee
