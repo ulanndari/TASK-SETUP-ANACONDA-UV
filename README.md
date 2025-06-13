@@ -160,8 +160,53 @@ Karena dia punya fitur pintar kayak:
 1. Kunjungi situs resminya:
 👉https://code.visualstudio.com/
 2. Klik tombol Download for Windows.
-3. Buka file .exe hasil download tadi.
-4. Saat instalasi, pastikan kamu centang semua ini:
+#### 6. 🛠️ Membuat Lingkungan Conda
+##### 📌 Apa itu Lingkungan Conda?
+Lingkungan Conda adalah ruang kerja virtual yang terisolasi untuk Python dan paket-paket yang digunakan dalam proyek tertentu.
+##### ❓ Kenapa Perlu Lingkungan Conda?
+1. Mencegah konflik versi paket antar proyek
+2. Memastikan stabilitas dan kompatibilitas
+3. Memudahkan pengelolaan dependensi
+##### ✅ Do's (yang sebaiknya dilakukan):
+1. Beri nama atau lokasi environment yang relevan dengan proyek
+2. Simpan environment di dalam folder proyek untuk portabilitas
+##### ❌ Don’ts (yang harus dihindari):
+1. Jangan buat di direktori acak yang tidak ada hubungannya dengan proyek
+2. Jangan campur environment proyek A dengan proyek B
+##### 🪜 Langkah-langkah Praktis:
+1. Buka Terminal di VS Code
+2. Tekan Ctrl + ` (tanda backtick di bawah tombol Esc)
+3. Jalankan perintah berikut untuk membuat environment:
+#####conda create -p venv python=3.12
+Catatan:
+1. -p venv artinya membuat environment di folder ./venv dalam proyek kamu
+2. python=3.12 menentukan versi Python yang digunakan
+Saat muncul pertanyaan:
+Proceed ([y]/n)?
+##### ➡️ Ketik y lalu tekan Enter
+##### Setelah selesai, aktifkan environment dengan:
+conda activate ./venv
+##### Prompt terminal akan berubah menjadi:
+(venv) C:\Users\ACER\ghost_intellix>
+![Alt](?raw=true)
+Artinya environment berhasil diaktifkan.
+
+🚀 Langkah Berikutnya (Setelah Environment Aktif)
+Install dependensi proyek:
+
+bash
+Salin
+Edit
+pip install -r requirements.txt
+Jalankan file Python utama:
+
+bash
+Salin
+Edit
+python main.py
+
+4. Buka file .exe hasil download tadi.
+5. Saat instalasi, pastikan kamu centang semua ini:
 ##### ✅ Tambahkan “Open with Code” di menu klik kanan (Explorer)
 ##### ✅ Jadikan VS Code sebagai editor default
 ##### ✅ Tambahkan ke PATH (penting!)
