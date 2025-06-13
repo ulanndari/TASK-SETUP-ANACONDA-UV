@@ -328,7 +328,7 @@ Jangan buat notebook di luar environment virtual, nanti gak bisa akses paket-pak
 ##### Kenapa: Membantu memilih alat sesuai kebutuhan proyek.
 ##### Do's: Gunakan Conda untuk ilmiah, UV untuk cepat.
 ##### Don'ts: Jangan campur keduanya tanpa alasan.
-![Alt](?raw=true)
+![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/commit/d05c2ac254a6fc54dbfe2146002179131624ee89?raw=true)
 ## Daftar Paket yang Direkomendasikan
 ##### Apa: Paket penting untuk Data Science, Machine Learning, dan AI.
 ##### Kenapa: Memastikan alat yang diperlukan tersedia.
