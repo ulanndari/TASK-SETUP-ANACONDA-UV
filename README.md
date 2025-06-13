@@ -1,4 +1,8 @@
 ## 📣 Haloo..Dear Eco Techno Leaders
+_____________________________________________________________________________________________________________________________________________________________________________________
+#### Hai perkenalkan nama saya ULANDARI
+#### No Absen 10.041.DB2025
+#### Batch 10, Asal dari Jambi
 Mari kita sama-sama mempelajari environment setup untuk Data Science/AI dengan:
 ##### ✅ Anaconda
 ##### ✅ Conda
@@ -273,8 +277,8 @@ Penyebab:
 3. Buka System Properties → Environment Variables.
 4. Di bagian “System variables”, cari Path → klik Edit.
 5. Tambahkan jalur berikut:
-###### C:\Users\NAMA_ANDA\anaconda3
-###### C:\Users\NAMA_ANDA\anaconda3\Scripts
+###### C:\Users\ACER\anaconda3
+###### C:\Users\ACER\anaconda3\Scripts
 6. Jalankan perintah:
 ###### conda init cmd.exe
 7. Tutup dan buka kembali terminal.
@@ -296,4 +300,4 @@ Ketik Y untuk mengonfirmasi.
 1. Data/ML berat & paket C/CUDA → Conda/Anaconda
 2. Proyek Python murni & butuh kecepatan → UV
 
-# Terimakasih...byee
+# Semoga Bermanfaat, Terimakasih...Tschüss👋👋👋👋
