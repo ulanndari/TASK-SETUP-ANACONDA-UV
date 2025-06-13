@@ -336,7 +336,7 @@ Jangan buat notebook di luar environment virtual, nanti gak bisa akses paket-pak
 ##### Don'ts: Jangan instal paket yang tidak diperlukan.
 ####Langkah-langkah:
 1. Buat requirements.txt:
-![Alt](?raw=true)
+![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.15.png?raw=true)
 3. Instal:
 ###### uv add -r requirements.txt
 3. atau
