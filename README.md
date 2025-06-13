@@ -199,13 +199,108 @@ Buat file baru:
 ###### Isi paket yang dibutuhkan:
 ###### Contoh isinya bisa begini:
 
-![Alt](?raw=true)
+![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/commit/96a042468f8a50fb03c486461825abcf6f1b8bfc?raw=true)
 
 3. Simpan file dengan File → Save atau Ctrl+S.
 4. Pastikan file berada di root folder proyek (C:\Users\NAMA_ANDA\ghost_intellix).
-
-
- 
-
+5. Di terminal VS Code, dengan lingkungan aktif, ketik:
+###### pip install -r requirements.txt
+#### 🔌 Menonaktifkan Lingkungan (Environment)
+##### Apa sih maksudnya?
+Menonaktifkan environment itu artinya keluar dulu dari lingkungan kerja khusus proyek kamu, balik ke lingkungan dasar (base environment).
+##### Kenapa perlu?
+Supaya kamu nggak sengaja ngubah atau install sesuatu di proyek yang udah selesai. Ini juga bantu biar kerjaan tetap rapi dan gak bentrok antar proyek.
+##### ✅ Do's :
+Kalau udah selesai kerja, biasain ketik conda deactivate.
+##### ❌ Don't:
+Jangan biarin environment aktif terus, apalagi kalau kamu lagi nggak ngerjain proyek itu.
+##### 🚶‍♂️Cara Menonaktifkan:
+1. Buka terminal atau Anaconda Prompt.
+Ketik perintah ini:
+###### conda deactivate
+2. Setelah itu, prompt akan kembali ke direktori awal, misalnya:
+###### C:\Users\NAMA_ANDA\ghost_intellix>
+Selesai deh, lingkungan udah dinonaktifkan. Jadi lebih aman buat lanjut ke proyek lain! 😎
+### 7.⚡ Menginstal UV (Ultra Cepat!)
+#### Apa sih UV itu?
+UV itu alat buat ngatur paket dan lingkungan, kayak pip + venv, tapi kecepatannya ngebut karena dibuat pakai Rust. Cocok banget buat proyek yang punya banyak pustaka (dependensi).
+#### Kenapa pakai UV?
+Karena UV bikin proses install jadi jauh lebih cepat. Apalagi kalau proyek kamu besar, ini hemat waktu banget.
+##### ✅ do's (Lakukan ini):
+Pastikan kamu sudah keluar dari environment Conda dulu sebelum pakai UV (biar gak bentrok).
+##### ❌ don'ts Jangan lakukan ini:
+Jangan pakai UV buat install paket-paket khusus Conda, karena UV jalan pakai pip, bukan conda.
+##### 🚶‍♂️Langkah-langkah Instalasi UV:
+1. Pastikan environment Conda udah dinonaktifkan:
+Ketik dulu:
+###### conda deactivate
+Kalau udah, prompt bakal balik ke direktori biasa.
+2. Install UV:
+Ketik di terminal atau CMD:
+###### pip install uv
+Tunggu sampai muncul tulisan:
+###### Successfully installed uv-0.7.12
+Artinya UV berhasil dipasang 🎉
+##### 🗂️ Tentang Folder ghost_intellixuv
+Nanti kita bakal pakai perintah uv init buat bikin folder baru bernama ghost_intellixuv.
+##### 📌 Catatan penting:
+1. Kamu nggak perlu bikin folder itu manual.
+2. UV akan otomatis bikin folder dan isi dasarnya waktu kamu jalanin uv init.
+3. Setelah itu, kamu bisa ketik:
+###### dir
+buat lihat apakah folder ghost_intellixuv udah muncul.
+#### 🧪 Membuat & Mengaktifkan Lingkungan UV
+##### Apa sih maksudnya?
+Lingkungan virtual (virtual environment) itu kayak “dunia kecil” khusus buat proyek kamu. Semua pustaka yang diinstal akan disimpan di situ — jadi nggak nyampur sama proyek lain.
+##### Kenapa penting?
+Biar tiap proyek punya ruang sendiri dan gak bikin konflik, apalagi kalau beda versi pustaka.
+##### ✅ do's (Lakukan ini):
+Aktifkan environment sebelum install paket.
+##### ❌ don'ts (Jangan lakukan ini):
+Jangan utak-atik folder .venv secara manual, biarin UV yang ngurus.
+##### 🚀 Langkah-langkah Bikin dan Aktifkan Environment:
+1. Bikin environment dengan UV:
+###### uv venv
+2. Ini akan otomatis bikin folder .venv di dalam proyek kamu.
+Aktifkan environment-nya:
+###### .venv\Scripts\activate
+3. Ciri-ciri environment sudah aktif:
+Prompt di terminal bakal berubah, misalnya jadi:
+###### (ghost_intellixuv) C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv>
+Nah, kalau udah kayak gitu, berarti kamu siap lanjut install paket dan mulai ngoding! 😎
+#### 📦 Menginstal Paket dengan UV
+##### Apa sih ini?
+UV itu punya fitur keren buat install paket super cepat lewat perintah mirip pip. Tapi di UV, kita pakenya uv add.
+##### Kenapa pakai UV?
+Karena UV install paketnya kilat banget, terutama kalau paketnya besar kayak pandas, numpy, atau matplotlib. Cocok buat kamu yang gak mau nunggu lama! ⚡
+##### ✅ do's (Lakukan ini):
+Install paket pakai uv add (bukan pip install).
+##### ❌ don'ts (Jangan lakukan ini):
+Jangan campur UV dan pip dalam proyek yang sama, nanti bisa bikin konflik dependensi.
+##### 🚀 Langkah-langkah Install Paket:
+1. Pastikan environment kamu aktif dulu (lihat ada tanda (ghost_intellixuv) di terminal).
+Ketik perintah:
+###### uv add pandas
+2. output seperti
+![Alt](?raw=true)
+##### 📝 Catatan Penting:
+UV jauh lebih cepat dibanding pip, apalagi kalau kamu install paket yang punya banyak “anak paket” alias dependency tree yang besar — contohnya pandas, scikit-learn, atau tensorflow.
+##### 💡 Jadi kalau proyekmu makin kompleks, UV justru makin terasa manfaatnya: lebih cepat, lebih efisien, dan tetap rapi.
+####🔌 Menonaktifkan Lingkungan UV
+##### Apa sih maksudnya?
+Menonaktifkan environment itu artinya keluar dari “dunia proyek” sementara, dan balik lagi ke sistem global Python kamu.
+##### Kenapa perlu?
+Biar kamu gak sengaja ngubah atau install paket di environment proyek, apalagi kalau udah gak dipakai. Ini juga bantu biar sistem tetap bersih dan gak bentrok sama proyek lain.
+##### ✅do's (Lakukan ini):
+Biasakan keluar dari environment setelah selesai kerja.
+##### ❌ don'ts (Jangan lakukan ini):
+Jangan biarkan environment tetap aktif kalau kamu udah gak ngoding lagi.
+##### 🚶‍♂️Langkah Menonaktifkan:
+1. Di terminal, ketik:
+###### .venv\Scripts\deactivate
+2. Setelah itu, prompt akan berubah kembali seperti semula, misalnya:
+###### C:\Users\NAMA_ANDA\ghost_intellix\ghost_intellixuv>
+Artinya kamu sudah keluar dari lingkungan virtual UV.
+###### ✨ Sekarang kamu udah tahu cara masuk dan keluar dari environment. Rapi, aman, dan siap untuk proyek berikutnya!
 
 
