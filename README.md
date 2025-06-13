@@ -165,7 +165,7 @@ Catatan:
 Saat muncul pertanyaan:
 Proceed ([y]/n)?
 ##### ➡️ Ketik y lalu tekan Enter
-![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.11.pngraw=true)
+![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.11.png?raw=true)
 ##### Setelah selesai, aktifkan environment dengan:
 conda activate ./venv
 ##### Prompt terminal akan berubah menjadi:
@@ -199,7 +199,7 @@ Buat file baru:
 ###### Isi paket yang dibutuhkan:
 ###### Contoh isinya bisa begini:
 
-![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/commit/96a042468f8a50fb03c486461825abcf6f1b8bfc?raw=true)
+![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.12.png?raw=true)
 
 3. Simpan file dengan File → Save atau Ctrl+S.
 4. Pastikan file berada di root folder proyek (C:\Users\NAMA_ANDA\ghost_intellix).
@@ -282,7 +282,9 @@ Jangan campur UV dan pip dalam proyek yang sama, nanti bisa bikin konflik depend
 Ketik perintah:
 ###### uv add pandas
 2. output seperti
+   
 ![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.13.png?raw=true)
+
 ##### 📝 Catatan Penting:
 UV jauh lebih cepat dibanding pip, apalagi kalau kamu install paket yang punya banyak “anak paket” alias dependency tree yang besar — contohnya pandas, scikit-learn, atau tensorflow.
 ##### 💡 Jadi kalau proyekmu makin kompleks, UV justru makin terasa manfaatnya: lebih cepat, lebih efisien, dan tetap rapi.
@@ -328,16 +330,20 @@ Jangan buat notebook di luar environment virtual, nanti gak bisa akses paket-pak
 ##### Kenapa: Membantu memilih alat sesuai kebutuhan proyek.
 ##### Do's: Gunakan Conda untuk ilmiah, UV untuk cepat.
 ##### Don'ts: Jangan campur keduanya tanpa alasan.
-![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/commit/d05c2ac254a6fc54dbfe2146002179131624ee89?raw=true)
+
+![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.14.pngraw=true)
+
 ## Daftar Paket yang Direkomendasikan
 ##### Apa: Paket penting untuk Data Science, Machine Learning, dan AI.
 ##### Kenapa: Memastikan alat yang diperlukan tersedia.
 ##### Do's: Perbarui versi paket secara berkala.
 ##### Don'ts: Jangan instal paket yang tidak diperlukan.
-####Langkah-langkah:
+#### Langkah-langkah:
 1. Buat requirements.txt:
+   
 ![Alt](https://github.com/ulanndari/TASK-SETUP-ANACONDA-UV/blob/main/gambar.15.png?raw=true)
-3. Instal:
+
+2. Instal:
 ###### uv add -r requirements.txt
 3. atau
 ###### pip install -r requirements.txt
